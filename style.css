@@ -63,7 +63,8 @@ body {
 }
 
 .secundario__imagem {
-    width: 50%;
+    width: 72%;
+    margin-left: 9em;
     
 }
 
@@ -72,5 +73,45 @@ body {
     margin: 0 6em;
     display: grid;
     grid-template-columns: 50% 50%;
+   
 
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.5em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.parte_tres {
+    padding: 2em;
+    margin-top: 3em;
+    display: flex;  
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center
+    
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
 }
