@@ -183,10 +183,22 @@ body {
         background-image: none; 
         margin: auto;   
     }
+    .container__secundario {
+        margin: 1em auto;
+        display: block;
+
+    }
+    .secundario_botao {
+        text-align: center;
+        margin: 2em 2em;
+        display: block;
+        justify-content: center;
+    }
     .container.descricao__texto {
         display:none;
         text-align: left;
         justify-items: left;
+        margin: 1em 1em;
     }
     .container__imagem {
         width: 50vw;
@@ -203,6 +215,13 @@ body {
         display: inline-block;
         width: 50vw;
         margin: auto;
+    }
+    .descricao__texto {
+        margin: auto;
+    }
+    .descricao__titulo {
+        margin: auto;
+        text-align: center
     }
     .dispositivos__titulo {
         text-align:center;
