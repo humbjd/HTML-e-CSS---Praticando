@@ -146,6 +146,15 @@ body {
 
 }
 
+.lista__link:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link:active {
+    color: green
+}
+
+
 
 
 .rodape__texto {
@@ -166,3 +175,7 @@ body {
 .container__botao:hover {
     background-color: rgb(9, 9, 82);
 }
+
+
+
+
