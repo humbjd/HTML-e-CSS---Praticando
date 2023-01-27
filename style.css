@@ -184,9 +184,12 @@ body {
         margin: auto;   
     }
     .container__secundario {
-        margin: 1em auto;
+        margin: 0;
         display: block;
 
+    }
+    .container__descricao {
+        
     }
     .secundario_botao {
         text-align: center;
