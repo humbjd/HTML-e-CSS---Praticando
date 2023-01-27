@@ -176,7 +176,7 @@ body {
     background-color: rgb(67, 130, 66);
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 768px) {
 
     .principal, .container, .dispositivos, .dispositivos__lista, .rodape, .rodape__lista{
         display: flex;
